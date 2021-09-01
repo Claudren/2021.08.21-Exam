@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace _2021._08._21_Exam
 {
-    class Dictionary
+    public class Dictionary
     {
         public string path;
         public Dictionary<string, int> dictionary;
