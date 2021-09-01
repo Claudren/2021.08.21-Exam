@@ -1,0 +1,7 @@
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\bin\Debug\2021.08.21 Exam.exe.config
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\bin\Debug\2021.08.21 Exam.exe
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\bin\Debug\2021.08.21 Exam.pdb
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\obj\Debug\2021.08.21 Exam.csproj.AssemblyReference.cache
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\obj\Debug\2021.08.21 Exam.csproj.CoreCompileInputs.cache
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\obj\Debug\2021.08.21 Exam.exe
+D:\for itstep\2021.08.21 Exam\2021.08.21 Exam\obj\Debug\2021.08.21 Exam.pdb
