@@ -41,5 +41,51 @@ namespace _2021._08._21_Exam
                 }
             }
         }
+
+        public void Save(string path)
+        {
+            FileStream file = new FileStream(path, FileMode.Create, FileAccess.Write);
+            StreamWriter writer = new StreamWriter(file, Encoding.Default);
+            
+
+            foreach (var item in dictionary)
+            {
+                writer.WriteLine(item.Key + " = " + item.Value);
+            }
+            writer.Flush();
+            file.Close();
+        }
+
+        public void Sort()
+        {
+            int b;
+            Dictionary<string, int> ndictionary = new Dictionary<string, int>();
+
+            while (dictionary.Count > 0)
+            {
+                b = 0;
+                foreach (var item in dictionary)
+                {
+                    if (b < item.Value)
+                        b = item.Value;
+                }
+
+                while (dictionary.ContainsValue(b))
+                {
+                    foreach (var item in dictionary)
+                    {
+                        if (item.Value == b)
+                        {
+                            ndictionary.Add(item.Key, b);
+                            dictionary.Remove(item.Key);
+                            break;
+                        }
+                    }
+                }
+
+                
+            }
+            dictionary = ndictionary;
+        }
     }
 }
