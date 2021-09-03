@@ -15,7 +15,8 @@ namespace _2021._08._21_Exam
 
             Dictionary dictionary = new Dictionary(Console.ReadLine());
             dictionary.CreateDictionary();
-
+            dictionary.Sort();
+            dictionary.Save("test.txt");
 
         }
     }
